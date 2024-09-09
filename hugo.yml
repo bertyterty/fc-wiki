@@ -1,0 +1,6 @@
+baseURL: "https://wiki.familychurch.org.uk"
+title: "Family Church Tutorials"
+languageCode: "en-gb"
+theme: "papermod"
+params:
+  organisation: "Family Church"
