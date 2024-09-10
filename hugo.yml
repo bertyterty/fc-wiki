@@ -1,6 +1,49 @@
 baseURL: "https://wiki.familychurch.org.uk"
-title: "Family Church Tutorials"
+title: "Family Church Wiki"
 languageCode: "en-gb"
 theme: "papermod"
+
+mainsections: ["posts", "tutorials"]
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Archive
+          url: archives
+          weight: 5
+        - name: Search
+          url: search/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 10
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
   organisation: "Family Church"
+  ShowBreadCrumbs: true
+  ShowToc: true
+
+  homeInfoParams:
+    Title: "Family Church Wiki"
+    Content: >
+      - Welcome to the Family Church Wiki website.
+
+      - This site can be populated with content that can be shared with our community of volunteers in order to have a central location for training materials, or general information that can be easily shared
+    
+  editPost:
+    URL: "https://github.com/bertyterty/fc-wiki/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
