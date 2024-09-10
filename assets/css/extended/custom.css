@@ -1,0 +1,12 @@
+.home-info ul {
+    /* padding-inline-start: 20px; */
+}
+
+.home-info ul li {
+    list-style-type: none;
+    padding-bottom: 1rem;
+}
+
+.entry-cover img {
+    border: 2px solid var(--border);
+}
