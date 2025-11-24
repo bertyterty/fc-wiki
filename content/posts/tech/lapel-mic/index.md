@@ -6,6 +6,10 @@ weight: 1
 author: ['Andrew Davies']
 series: ['Tech']
 aliases: ['/tech/lapel-mic']
+tags: ['Tech', 'audio', 'lapel', 'lav', 'sound']
+cover:
+  image: images/blx.jpg
+  hiddenInList: true
 ---
 
 > **The pictures in this article are referencing the recording from Family Church Billinge made by Nolan Bradshaw. You can access the recording by visiting our podcast feed on Spotify, or the website at the link below.**
