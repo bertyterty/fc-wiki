@@ -103,3 +103,9 @@ In order to add the shared mailbox, you need to click the following buttons:
 If you have been able to successfully follow these steps, you should now see the shared mailbox on the left hand side of the screen. It will display as though it is a completely separate mailbox to your own.
 
 {{</collapse >}}
+
+>{{<collapse summary="**Expand - Use the Outlook app on your phone**">}}
+
+The Outlook app on iPhone and Android phones can also show the shared mailbox. We have a separate guide that walks through it step by step, which you can find [here](/shared-mailbox-mobile).
+
+{{</collapse >}}
